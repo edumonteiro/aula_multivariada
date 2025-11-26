@@ -168,8 +168,8 @@ def plot_sklearn_final(X_2d, pca, kmeans_sklearn):
         centroids_2d[:, 0],
         centroids_2d[:, 1],
         marker="X",
-        c=plot_df['cluster'],
-        s=200##,edgecolor="black"
+        #c=plot_df['cluster'],
+        s=200,edgecolor="black"
     )
 
     ax.set_title("Resultado final do KMeans (scikit-learn) em PCA 2D")
@@ -405,6 +405,7 @@ plt.show()"""
 
 if __name__ == "__main__":
     main()
+
 
 
 
