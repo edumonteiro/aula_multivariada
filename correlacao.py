@@ -28,7 +28,7 @@ Você controla \(b\), a variância do erro \(\sigma^2\) e o tamanho amostral \(n
 # -----------------------------
 st.sidebar.header("Parâmetros de simulação")
 
-b = st.sidebar.slider("Coeficiente angular (b)", -20.0, 20.0, 1.0, 0.5)
+b = st.sidebar.slider("Coeficiente angular (b)", -20.0, 20.0, 1.0, 0.1)
 
 var_erro = st.sidebar.slider("Variância do erro (σ²)", 0.01, 10.0, 1.0, 0.01)
 
@@ -164,3 +164,4 @@ t = {r_xy:.4f} \sqrt{{\frac{{{n} - 2}}{{1 - ({r_xy:.4f})^2}}}} \approx {t_stat:.
     )
 
     st.info("Compare o p-valor com o nível de significância (ex.: 5%) para decidir sobre H₀.")
+
