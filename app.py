@@ -183,7 +183,7 @@ def plot_sklearn_final(X_2d, pca, kmeans_sklearn):
 # Aplicativo Streamlit
 # ---------------------------------------------------------
 def main():
-    st.title("Demonstração interativa do k-means com PCA")
+    st.title("Demonstração interativa do k-means com PCA_ com alteracao no titulo")
 
     st.write(
         """
@@ -405,6 +405,7 @@ plt.show()"""
 
 if __name__ == "__main__":
     main()
+
 
 
 
