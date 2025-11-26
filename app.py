@@ -147,8 +147,8 @@ def plot_sklearn_final(X_2d, pca, kmeans_sklearn):
         "cluster": labels
     })
     
-    #url = "https://raw.githubusercontent.com/selva86/datasets/master/mtcars.csv"
-    #df_importado = pd.read_csv(url)
+    url = "https://raw.githubusercontent.com/selva86/datasets/master/mtcars.csv"
+    df_importado = pd.read_csv(url)
     
     centroids_2d = pca.transform(kmeans_sklearn.cluster_centers_)
 
@@ -167,7 +167,8 @@ def plot_sklearn_final(X_2d, pca, kmeans_sklearn):
     ax.scatter(
         centroids_2d[:, 0],
         centroids_2d[:, 1],
-        marker=plot_df['cluster'],
+        marker="X",
+        style==plot_df['cluster'],
         s=200,
         edgecolor="black"
     )
@@ -405,6 +406,7 @@ plt.show()"""
 
 if __name__ == "__main__":
     main()
+
 
 
 
