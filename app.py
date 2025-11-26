@@ -161,7 +161,7 @@ def plot_sklearn_final(X_2d, pca, kmeans_sklearn):
         s=60,
         alpha=0.8,
         ax=ax,
-        legend=True
+        legend=True,
         style=df_importado$am
     )
 
@@ -406,6 +406,7 @@ plt.show()"""
 
 if __name__ == "__main__":
     main()
+
 
 
 
