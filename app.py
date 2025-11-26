@@ -216,7 +216,7 @@ def main():
 
         # Usar apenas as variáveis especificadas
         selected_vars = ["mpg", "cyl", "disp", "hp", "drat",
-                         "wt", "qsec", "vs", "gear", "carb"]
+                         "wt", "qsec", "gear", "carb"]
         available = [c for c in selected_vars if c in df.columns]
         df = df[available]
 
@@ -402,3 +402,4 @@ plt.show()"""
 
 if __name__ == "__main__":
     main()
+
