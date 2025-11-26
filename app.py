@@ -162,7 +162,7 @@ def plot_sklearn_final(X_2d, pca, kmeans_sklearn):
         alpha=0.8,
         ax=ax,
         legend=True,
-        style=df_importado$am
+        style=df_importado['am']
     )
 
     ax.scatter(
@@ -406,6 +406,7 @@ plt.show()"""
 
 if __name__ == "__main__":
     main()
+
 
 
 
