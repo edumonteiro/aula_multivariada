@@ -168,7 +168,7 @@ def plot_sklearn_final(X_2d, pca, kmeans_sklearn):
         centroids_2d[:, 0],
         centroids_2d[:, 1],
         marker="X",
-        style==plot_df['cluster'],
+        style=plot_df['cluster'],
         s=200,
         edgecolor="black"
     )
@@ -406,6 +406,7 @@ plt.show()"""
 
 if __name__ == "__main__":
     main()
+
 
 
 
