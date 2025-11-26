@@ -167,7 +167,7 @@ def plot_sklearn_final(X_2d, pca, kmeans_sklearn):
     ax.scatter(
         centroids_2d[:, 0],
         centroids_2d[:, 1],
-        marker="X",
+        marker=plot_df['cluster'],
         s=200,
         edgecolor="black"
     )
